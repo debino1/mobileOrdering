@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <!-- CSS -->
+       <link rel="stylesheet" href="index.css">
+       <!-- Font Awesome CDN -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-text">
+                <h1>TenTen Diner</h1>
+                <h2>Your favorite place for delicious food!</h2>
+            </div>
+        </header>
+    <main class="container" id="container">
+        <section class="menu-container" id="menu-container"></section>
+        <section class="order-container" id="order-container"></section>
+    </main>
+    <div class="modal" id="modal">
+        <div class="close-modal-btn-container">
+			<button class="modal-close-btn" id="modal-close-btn">X</button>
+		</div>
+        <div class="inner-modal">
+        <h2 class="modal-title">Enter card details</h2>
+        <form id="card-form">
+            <div class="modal-input">
+                <input 
+                    type="text" 
+                    id="card-name"
+                    name="cardName" 
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+            <div class="modal-input">
+                <input 
+                    type="tel" 
+                    id="card-number" 
+                    name="cardNumber"
+                    placeholder="Enter your card number"
+                    required
+                >
+            </div>
+            <div class="modal-input">
+                <input 
+                    type="tel" 
+                    id="card-cvc" 
+                    name="cardCvc"
+                    placeholder="Enter your CVC"
+                    required
+                >
+            </div>
+            <div class="modal-btn">
+                <button class="submit-btn" type="submit">Pay</button>
+            </div>
+        </form>
+        </div>
+    </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
