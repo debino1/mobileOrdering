@@ -16,7 +16,7 @@ A food delivery app
 
 ## Live Demo
 
-[foodordering.netlify.app](https://foodordering.netlify.app/)
+[foodorderinapp.netlify.app](https://foodorderinapp.netlify.app/)
 
 ## Screenshots
 
