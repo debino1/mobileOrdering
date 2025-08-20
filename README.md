@@ -1,6 +1,6 @@
 # Food Ordering
 
-A tool that generates random passwords to enhance user security.
+A food delivery app
 
 ## Tech Used
 
