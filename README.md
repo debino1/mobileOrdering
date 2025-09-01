@@ -21,7 +21,7 @@ A food delivery app
 ## Screenshots
 
 <a href="foodOrdering.png">
-    <img src="foodOrdering.png" alt="Learning Journal screenshot" width="250"/>
+    <img src="foodOrdering.png" alt="Learning Journal screenshot" width="400"/>
   </a>
 
 ## What I Learned
